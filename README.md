@@ -1,5 +1,5 @@
 # Re-analysis of Jeffries et al. 2025 (*Nature*): gene length, ageing and somatic mutation in human neurons
-
+Acknowledgement - Thanks to the original authors for depositing detailed supplementary data.
 An independent re-test of the central claim of
 [Jeffries et al., *Nature* 646:657 (2025)](https://doi.org/10.1038/s41586-025-09435-8):
 that **short, highly expressed housekeeping genes accumulate somatic SNVs and lose expression
@@ -15,9 +15,9 @@ housekeeping-gene lists. Everything is in R and runs end-to-end in a couple of m
 |---|---|---|
 | Expression change in ageing rises with gene length in housekeeping genes (Fig. 5f; R² = 0.50) | Reproduced: R² = 0.51 (decile), 0.55 (continuous length), p < 10⁻²⁷⁰ | ✅ Reproduces |
 | Housekeeping set is not an artefact of being defined on the same data | Same slope in genes also on an external HK list (0.56) and genes not on it (0.53) | ✅ Robust |
-| Neuron-specific genes show a much weaker length relationship (Fig. 5g; R² = 0.20, P = 1.2 × 10⁻³) | R² = 0.24 but p = 6 × 10⁻¹⁹ at gene level; slope is 70% of HK in a shared length window | ⚠️ Length effect is general, not housekeeping-specific (length and expression level not separable here) |
-| sSNV rate per bp falls with gene length in housekeeping genes (Fig. 5i; R² = 0.44, P = 0.035) | Reproduced on deciles (R² = 0.44), but p = 0.12–0.20 without the shortest decile; HK vs neuron-specific slopes do not differ (p = 0.30–0.44); unchanged after removing likely-artifact recurrent calls | ⚠️ Fragile |
-| Elderly and adult donors are comparable | RIN falls with age (ρ = −0.57, p = 0.021); depth, complexity, PMI, storage time balanced | ⚠️ Possible confound |
+| Neuron-specific genes show a much weaker length relationship (Fig. 5g; R² = 0.20, P = 1.2 × 10⁻³) | R² = 0.24 but p = 6 × 10⁻¹⁹ at gene level; slope is 70% of HK in a shared length window |  Length effect is general, not housekeeping-specific (length and expression level not separable here) |
+| sSNV rate per bp falls with gene length in housekeeping genes (Fig. 5i; R² = 0.44, P = 0.035) | Reproduced on deciles (R² = 0.44), but p = 0.12–0.20 without the shortest decile; HK vs neuron-specific slopes do not differ (p = 0.30–0.44); unchanged after removing likely-artifact recurrent calls | Fragile |
+| Elderly and adult donors are comparable | RIN falls with age (ρ = −0.57, p = 0.021); depth, complexity, PMI, storage time balanced | Possible confound |
 
 ## Findings
 
