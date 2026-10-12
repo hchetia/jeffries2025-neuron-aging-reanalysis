@@ -164,4 +164,5 @@ excluded: 32 of 2,090 in the expression analysis and 6 in the mutation analysis.
 ## Acknowledgement
 Thanks to the original authors for depositing detailed supplementary data.
 
+*Code in this repository is released under the MIT License. Source data remain under their publishers’ terms.*
 *This is an independent re-analysis for learning purposes and is not affiliated with the original authors.*
